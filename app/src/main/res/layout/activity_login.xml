@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/user"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:gravity="center"
+        android:text="用户名"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/user_edt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/user"
+        android:hint="请输入用户名"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/pwd"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/user"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="密码"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/pwd_edt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/user_edt"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/pwd"
+        android:hint="请输入密码"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/user_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pwd"
+        android:layout_marginTop="20dp"
+        android:text="Click Me Login APP"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp" />
+</RelativeLayout>

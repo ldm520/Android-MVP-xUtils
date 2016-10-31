@@ -1,0 +1,3 @@
+MVP 是从经典的模式MVC演变而来，基本思想有相通的地方：Controller/Presenter负责逻辑的处理，Model提供数据，View负责显示。
+更多内容参考百科：http://baike.baidu.com/link?url=4EMjCgkN-_tDEL7ek0_-mDU2cbX4wnUtT2n1qDMauPbOTKgM7nmpRkd6s7NOYtyr_tVafz2gb6fO1_fM2BlZoL-rSP1Gbp6uWZPIv85eJfW
+或其它的博客等技术文章。
