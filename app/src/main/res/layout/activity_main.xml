@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
+    android:orientation="vertical"
     android:padding="16dp">
 
     <TextView
@@ -13,8 +13,44 @@
         android:layout_below="@id/user"
         android:layout_marginTop="10dp"
         android:gravity="center"
-        android:text="这就是Demo主界面，现在啥都没有..."
+        android:text="这里对xUtils框架使用简单介绍下吧"
         android:textSize="20sp" />
 
+    <Button
+        android:id="@+id/xutils_get"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="HTTP GET"
+        android:textSize="16sp" />
 
-</RelativeLayout>
+    <Button
+        android:id="@+id/xutils_post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="HTTP POST"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/xutils_upload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="HTTP FILE UPLOAD"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/xutils_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="GET HTTP IMAGE"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/xutils_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" />
+</LinearLayout>
